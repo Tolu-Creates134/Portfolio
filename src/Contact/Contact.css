@@ -1,0 +1,40 @@
+.contact {
+    height: 35vh;
+    background-color: #1d2951;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-details section {
+    text-align: center;
+}
+
+.contact-details h3 {
+    font-size: 30px;
+    color: #7B68EE;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        height: 100vh;
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .contact-details section {
+        margin-top: 60px;
+    }
+}

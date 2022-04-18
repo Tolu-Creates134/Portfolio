@@ -1,0 +1,126 @@
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 600px;
+    overflow-y: hidden;
+}
+
+.hero-text h1 {
+    font-size: 80px;
+    letter-spacing: 6px;
+}
+
+.hero-text h1 span {
+    color: #7B68EE;
+}
+
+.hero-text h3 {
+    font-size: 30px;
+    color: #d3d3d3;
+}
+
+.hero-text .buttons {
+    position: relative;
+    top: 80px;
+    overflow-y: hidden;
+}
+
+.hero-text button {
+    border-radius: 7px;
+    padding: 13px;
+    font-size: 23px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: ease 0.5s;
+    overflow-y: hidden;
+}
+
+.hero-text button a {
+    text-decoration: none;
+}
+
+.btn-cv {
+    border: 1px solid #7B68EE;
+    background-color: transparent;
+    color: #7B68EE;
+}
+
+.btn-cv a {
+    color: #7B68EE
+}
+
+.btn-insta {
+    border: 1px solid #7B68EE;
+    background-color: #7B68EE;
+    color: #041E42;
+}
+
+.btn-cv:hover {
+    color: #041E42;
+    background-color: #d3d3d3;
+
+}
+
+.btn-insta:hover {
+    color: #7B68EE;
+    background-color: #d3d3d3;
+}
+
+.hero-image {
+    background-image: url('/src/Hero/Hand\ coding-bro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 600px;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero {
+        height: 55vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+
+    }
+
+    .hero-text {
+        height: 750px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        margin-right: -25px;
+
+    }
+
+    .hero-text button {
+        padding: 7px;
+        font-size: 17px;
+    }
+
+    .hero-image {
+        height: 400px;
+        width: 400px;
+    }
+
+
+
+}

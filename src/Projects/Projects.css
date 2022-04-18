@@ -1,0 +1,185 @@
+.projects{
+    min-height: 800px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 0px;
+}
+
+.real-estate {
+    background-image: url(./Real\ Estate\ Home\ page\ 2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 420px;
+    border-radius: 10px;
+}
+
+.project-text { 
+    text-align: center;
+}
+
+
+.project-text h2 {
+    font-size: 35px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-text h3 {
+    color: white;
+    padding: 20px 0px;
+    font-size: 28px;
+}
+
+.project-text ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.project-text ul li {
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: #d3d3d3;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.project-text ul li:hover {
+    color: white;
+}
+
+.project-text .btns {
+    padding-top: 70px;
+}
+
+.project-text .btns .btn {
+    border-radius: 7px;
+    padding: 13px;
+    font-size: 23px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: ease 0.5s;
+    background: linear-gradient(to right top, #e500db, #b548e7, #845fe9, #516be0, #1870cf);
+    color: white;
+    border: none;
+}
+
+.project-text .btns .btn:hover {
+    opacity: 70%;
+}
+
+.car-rental {
+    background-image: url(./Car\ Rental\ Home\ Page\ 2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 420px;
+    border-radius: 10px;
+}
+
+.netflix-clone {
+    background-image: url(./Netflix-clone\ home\ page\ 2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 377px;
+    border-radius: 10px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project-text {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .car-rental {
+        background-image: url(./Car\ Rental\ Home\ Page\ 3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 188px;
+        border-radius: 5px;
+    }
+
+    .netflix-clone {
+        background-image: url(./Netflix-clone\ home\ page\ 3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 185px;
+        border-radius: 5px;
+    }
+
+    .real-estate {
+        background-image: url(./Real\ Estate\ Home\ page\ 3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 222px;
+        border-radius: 5px;
+    }
+
+    .project-text h2 {
+        font-size: 22px;
+    }
+
+    .project-text h3 {
+        font-size: 16px;
+    }
+
+    .project-text ul {
+        padding-left: 20px;
+    }
+
+    .project-text ul li {
+        font-size: 13px;
+    }
+
+    .project-text .btns {
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .project-text .btns .btn {
+        padding: 5px;
+        font-size: 15px;
+    }
+}
+
+
+
+

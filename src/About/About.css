@@ -1,0 +1,31 @@
+.about {
+    height: 40vh;
+    text-align: center;
+}
+
+.about h1 {
+    color: white;
+    padding: 30px 0px;
+    font-size: 40px;
+}
+
+.about p {
+    color: #d3d3d3;
+    font-size: 25px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        height: 60vh;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+}
