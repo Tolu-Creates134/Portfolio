@@ -50,7 +50,6 @@
 .btn-cv {
     border: 1px solid #7B68EE;
     background-color: transparent;
-    color: #7B68EE;
 }
 
 .btn-cv a {
@@ -60,7 +59,11 @@
 .btn-insta {
     border: 1px solid #7B68EE;
     background-color: #7B68EE;
+}
+
+.btn-insta a {
     color: #041E42;
+
 }
 
 .btn-cv:hover {
