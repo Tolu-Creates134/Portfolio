@@ -25,7 +25,7 @@ export const Projects = () => {
                 </ul>
                     
                 <div className='btns'>
-                    <button className='btn'>LIVE DEMO</button>
+                    <button className='btn'><a href='https://real-estate-app-nu-eight.vercel.app/' target='_blank'>LIVE DEMO</a></button>
                     <button className='btn'><a href="https://github.com/Tolu-Creates134/Real-Estate-App" target="_blank">SOURCE CODE</a></button>
                 </div>
 
@@ -53,7 +53,7 @@ export const Projects = () => {
                 </ul>
                     
                 <div className='btns'>
-                    <button className='btn'>LIVE DEMO</button>
+                    <button className='btn'><a href='https://car-rental-site.vercel.app/' target='_blank'>LIVE DEMO</a></button>
                     <button className='btn'><a href="https://github.com/Tolu-Creates134/Car-Rental-Site" target="_blank">SOURCE CODE</a></button>
                 </div>
 
@@ -79,7 +79,7 @@ export const Projects = () => {
                 </ul>
 
                 <div className='btns'>
-                    <button className='btn'>LIVE DEMO</button>
+                    <button className='btn'><a href='https://vercel.com/tolu-creates134/netflix-clone' target='_blank'>LIVE DEMO</a></button>
                     <button className='btn'><a href='https://github.com/Tolu-Creates134/Netflix-Clone' target="_blank">SOURCE CODE</a></button>
                 </div>
 
