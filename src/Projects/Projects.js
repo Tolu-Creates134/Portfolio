@@ -79,7 +79,7 @@ export const Projects = () => {
                 </ul>
 
                 <div className='btns'>
-                    <button className='btn'><a href='https://vercel.com/tolu-creates134/netflix-clone' target='_blank'>LIVE DEMO</a></button>
+                    <button className='btn'><a href='https://netflix-clone-sage-two.vercel.app/' target='_blank'>LIVE DEMO</a></button>
                     <button className='btn'><a href='https://github.com/Tolu-Creates134/Netflix-Clone' target="_blank">SOURCE CODE</a></button>
                 </div>
 
